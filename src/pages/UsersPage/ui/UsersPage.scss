@@ -1,0 +1,175 @@
+@import '../../../assets/styles/scss/variables';
+@import '../../../assets/styles/scss/mixins';
+@import '../../../assets/styles/scss/extendsStart';
+
+.users_page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  .ticker {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .col_section {
+    @include colSize(6);
+    @include overHidden;
+    height: 100%;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    background-size: cover;
+    background-position: right top;
+    text-transform: uppercase;
+    font-family: $titleFont;
+    color: #dedede;
+    text-align: center;
+    &:before {
+      @extend %coverLayer;
+      background-image: url('../../../assets/images/light.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      content: "";
+    }
+    + .col_section {
+      background-position: left top;
+      &:before {
+        background-image: url('../../../assets/images/red_light.png');
+      }
+    }
+  }
+  .col_title {
+    @include zIndex(5);
+    font-size: 900%;
+    line-height: 1em;
+    letter-spacing: -0.005em;
+    @include mediaRange($size1280, $size1440) {
+      font-size: 850%;
+    }
+    @include mediaRange($size960, $size1280) {
+      font-size: 800%;
+    }
+    @include mediaRange($size768, $size960) {
+      font-size: 750%;
+    }
+  }
+  .queue_list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 876px;
+    margin: 48px auto 0;
+    padding: 0;
+    list-style-type: none;
+    @include zIndex(3);
+    li {
+      @include colSize(3);
+      padding: 0 16px 16px;
+      font-size: 900%;
+      line-height: 108px;
+      letter-spacing: -0.005em;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span:nth-child(2) {
+        order: 2;
+      }
+      &:after {
+        display: block;
+        content: "-";
+        font-size: 4rem;
+      }
+      &:nth-last-child(-n+4):first-child,
+      &:nth-last-child(-n+4):first-child ~ li {
+        font-size: 1300%;
+        margin-top: 12px;
+        &:after {
+          width: 17px;
+          min-width: 17px;
+          position: relative;
+          overflow: hidden;
+          font-size: 5.8rem;
+          margin-left: -7px;
+          margin-right: -5px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      &:nth-last-child(-n+4):first-child {
+        margin-left: auto;
+      }
+      &:nth-last-child(-n+4):first-child ~ li:last-child {
+        margin-right: auto;
+      }
+      @media screen and (max-height: 1260px) {
+        &:nth-child(n+29) {
+          display: none;
+        }
+      }
+      @media screen and (max-height: 1160px) {
+        &:nth-child(n+25) {
+          display: none;
+        }
+      }
+      @media screen and (max-height: 1025px) {
+        &:nth-child(n+21) {
+          display: none;
+        }
+      }
+      @media screen and (max-height: 900px) {
+        &:nth-child(n+17) {
+          display: none;
+        }
+      }
+      @media screen and (max-height: 767px) {
+        &:nth-child(n+13) {
+          display: none;
+        }
+      }
+      @media screen and (max-height: 680px) {
+        &:nth-child(n+9) {
+          display: none;
+        }
+      }
+
+    }
+    // @include mediaRange($size1440, $size1600) {
+    //     font-size: 90%;
+    // }
+    @include mediaRange($size1280, $size1600) {
+      li:nth-last-child(-n+4):first-child,
+      li:nth-last-child(-n+4):first-child ~ li {
+        font-size: 1140%;
+        line-height: 0.9em;
+      }
+    }
+    @include mediaRange($size1280, $size1440) {
+      font-size: 90%;
+      li:nth-last-child(-n+4):first-child,
+      li:nth-last-child(-n+4):first-child ~ li {
+        line-height: 1em;
+      }
+    }
+    @include mediaRange($size960, $size1280) {
+      font-size: 80%;
+      li:nth-last-child(-n+4):first-child,
+      li:nth-last-child(-n+4):first-child ~ li {
+        font-size: 1100%;
+        line-height: 1.05em;
+      }
+    }
+    @include mediaRange($size768, $size960) {
+      font-size: 70%;
+      li:nth-last-child(-n+4):first-child,
+      li:nth-last-child(-n+4):first-child ~ li {
+        font-size: 1000%;
+        line-height: 1.25em
+      }
+    }
+  }
+}

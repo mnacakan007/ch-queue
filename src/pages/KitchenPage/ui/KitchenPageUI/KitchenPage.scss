@@ -1,0 +1,253 @@
+@import '../../../../assets/styles/scss/variables';
+@import '../../../../assets/styles/scss/mixins';
+@import '../../../../assets/styles/scss/extendsStart';
+
+.kitchen_page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #242424;
+  display: flex;
+  flex-direction: column;
+  .page_head {
+    padding: 26px 80px 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .tab_btns {
+    display: flex;
+    align-items: center;
+    position: relative;
+    button {
+      border: none;
+      background: transparent;
+      padding: 10px 24px;
+      border-radius: 40px;
+      color: #dedede;
+      font-family: $medium;
+      font-size: 360%;
+      line-height: 42px;
+      position: relative;
+      z-index: 2;
+      &.selected {
+        pointer-events: none;
+      }
+      @include siteColorHover;
+    }
+  }
+  .indicator {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: $secondColor;
+    z-index: inherit;
+    border-radius: 40px;
+    @include animStyle(all 0.5s);
+  }
+  .orders_list {
+    flex: 1;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: auto;
+    @include customScroll(12px, thin, 12px, 12px, $secondColor, #dedede);
+    padding: 0 80px 20px;
+    margin: 0;
+    list-style-type: none;
+    li {
+      border: 4px solid #242424;
+      border-radius: 24px;
+      height: 100%;
+      background: $secondColor;
+      flex: 0 0 296px;
+      max-width: 296px;
+      position: relative;
+      overflow-x: hidden;
+      overflow-y: auto;
+      @include customScroll(0, thin, 0,0, transparent, transparent);
+      &:after {
+        display: block;
+        content: "";
+        position: sticky;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 60px;
+        background: linear-gradient(180deg, rgba(22, 22, 22, 0) 0%, #161616 100%);
+        z-index: 3;
+        pointer-events: none;
+      }
+    }
+    &::-webkit-scrollbar,
+    &::-webkit-scrollbar-track {
+      margin-left: 20px;
+      margin-right: 20px;
+
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border: 3px solid $secondColor;
+      box-sizing: border-box;
+    }
+  }
+  .order_info {
+    padding: 29px 32px 24px;
+    position: sticky;
+    background: inherit;
+    z-index: 5;
+    top: 0;
+  }
+  .order_id {
+    font-size: 240%;
+    line-height: 28px;
+    font-family: $medium;
+  }
+  .order_desc {
+    font-size: 160%;
+    line-height: 19px;
+    margin-top: 8px;
+  }
+
+  .order_item {
+    max-height: 600px;
+    @include animStyle(all 0.75s);
+    &.inactive {
+      @include transStyle(translate3d(0,-40px,0));
+      max-height: 0;
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  .item_inner {
+    margin: 0 10px 12px;
+    @include overHidden;
+    border-radius: 24px;
+    background: url('../../../../../public/resources/images/box_bg.svg') repeat-y left top;
+    background-size: 100% auto;
+    color: $secondColor;
+    z-index: 2;
+    padding: 14px 24px 12px;
+    &:before {
+      @include psevdoAbs;
+      top: 0;
+      left: 14px;
+      right: 17px;
+      height: 100%;
+      background: url('../../../../../public/resources/images/box_bg2.svg') no-repeat top center;
+      background-size: 100% auto;
+      z-index: -1;
+    }
+  }
+  .product_name {
+    font-size: 240%;
+    line-height: 28px;
+    font-family: $medium;
+  }
+  .product_count {
+    font-size: 200%;
+    line-height: 24px;
+    margin-top: 4px;
+    color: #696969;
+  }
+  .product_ingredients {
+    margin-top: 8px;
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 8px 0;
+    font-size: 180%;
+    line-height: 25px;
+    font-family: $medium;
+    span {
+      display: flex;
+      align-items: flex-start;
+      &:before {
+        display: block;
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: $secondColor;
+        margin: 10px;
+      }
+    }
+  }
+  .status_btn {
+    position: relative;
+    margin: 8px -24px -12px;
+    padding: 0 24px 12px;
+    &:before {
+      @include psevdoAbs;;
+      left: 0;
+      width: 100%;
+      bottom: 0;
+      height: 24px;
+      background: #DEDEDE;
+    }
+    button {
+      @include zIndex(2);
+      font-size: 160%;
+      line-height: 20px;
+      font-family: $medium;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 25px;
+      border: none;
+      color: $white;
+      width: 100%;
+      @include opacityHover;
+    }
+  }
+  .overdue_item {
+    .status_btn button {
+      background: #682B2B;
+    }
+    .product_ingredients {
+      background: rgba(#682B2B, 0.3);
+    }
+  }
+
+  .prepare_item {
+    .status_btn button {
+      background: #44682B;
+    }
+    .product_ingredients {
+      background: rgba(#44682B, 0.3);
+    }
+  }
+
+  .ready_item {
+    .status_btn button {
+      background: #77791E;
+    }
+    .product_ingredients {
+      background: rgba(#77791E, 0.3);
+    }
+  }
+
+  @include mediaTo($size1200) {
+    .page_head {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .tab_btns button {
+      padding: 8px 16px;
+      font-size: 280%;
+      line-height: 36px;
+    }
+  }
+}
+
+.logout_btn {
+  @extend %linkTypeBtn;
+  color: #dedede;
+  font-size: 160%;
+  line-height: 32px;
+  @include siteColorHover;
+  margin-left: auto;
+}
+
+@import '../../../../assets/styles/scss/extendsEnd';

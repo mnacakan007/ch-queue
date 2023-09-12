@@ -1,0 +1,289 @@
+@import '../../../assets/styles/scss/variables';
+@import '../../../assets/styles/scss/mixins';
+@import '../../../assets/styles/scss/fonts';
+@import '../../../assets/styles/scss/extendsStart';
+
+.sign_form {
+  margin-top: 48px;
+  width: 460px;
+}
+.form_fields{
+  .field_block {
+    position: relative;
+    padding-bottom: 62px;
+    @include mediaTo($size960){
+      padding-bottom: 42px;
+    }
+    @include mediaTo($size960){
+      padding-bottom: 20px;
+    }
+    input,
+    textarea {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid $gray66;
+      color: $textColor;
+      padding: 0 0 14px;
+      font-size: 150%;
+      line-height: 1.6em;
+      background: transparent;
+      @include animStyles(all 10s 1000000s, border-color 0.3s 0s);
+      &:focus {
+        border-color: $textColor;
+        ~ .placeholder {
+          font-size: 150%;
+          line-height: 1.6em;
+          top: -32px;
+        }
+      }
+      &.filled {
+        ~ .placeholder {
+          font-size: 150%;
+          line-height: 1.6em;
+          top: -32px;
+          color: $white;
+        }
+      }
+    }
+    label {
+      position: relative;
+      &:not(.check_block) {
+        display: block;
+      }
+      &.check_block {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 12px;
+        @extend %smallText;
+        ~ .error_hint {
+          text-align: left;
+          &:before {
+            display: none;
+          }
+        }
+        input {
+          @extend %maskedInput;
+          &:checked ~ span:before {
+            border-color: transparent;
+            color: $white;
+            font-size: 0.8rem;
+          }
+        }
+        span {
+          align-items: center;
+          color: $grayCC;
+          @extend %textUnSelect;
+          @include darkHover;
+          &:before {
+            @extend %iconElement;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            width: 24px;
+            height: 24px;
+            border: 1px solid;
+            content: "\e905";
+            font-size: 0;
+            margin-right: 12px;
+          }
+        }
+        a {
+          color: inherit;
+          text-decoration: underline;
+          @include darkHover;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      &[hidden] {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+      }
+    }
+    textarea[data-validation],
+    input[data-validation] {
+      padding-right: 10px;
+    }
+    textarea {
+      resize: none;
+      display: block;
+      max-height: 200px;
+    }
+    .placeholder {
+      display: block;
+      color: $grayCC;
+      position: absolute;
+      left: 0;
+      top: 0;
+      @extend %noBlink;
+      @extend %all300;
+      font-size: 200%;
+      line-height: 24px;
+      @include mediaTo($size960){
+        font-size: 180%;
+        line-height: 21px;
+      }
+      @include mediaTo($size640){
+        font-size: 160%;
+        line-height: 21px;
+      }
+    }
+
+    .attach_btn{
+      background: linear-gradient(to right, $gray99 0 8px, transparent 8px 16px) repeat-x left -4px bottom;
+      background-size: 16px 1px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      padding-bottom: 14px;
+      color: $grayCC;
+      font-size: 200%;
+      line-height: 24px;
+      &::before{
+        content: "\e912";
+        @extend %iconElement;
+        display: block;
+        font-size: 2.2rem;
+        position: relative;
+        margin-right: 12px;
+        @include mediaTo($size960){
+          font-size: 1.8rem;
+        }
+      }
+    }
+    .attached_file {
+      position: relative;
+      background: linear-gradient(to right, $gray99 0 8px, transparent 8px 16px) repeat-x left -4px bottom;
+      background-size: 16px 1px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      padding:14px 0 14px;
+      font-size: 200%;
+      line-height: 24px;
+      @include mediaTo($size960){
+        font-size: 180%;
+        line-height: 21px;
+      }
+      @include mediaTo($size640){
+        font-size: 160%;
+        line-height: 21px;
+      }
+      .placeholder {
+        font-size: 1.5rem;
+        line-height: 1.6em;
+        top: -16px;
+        color: $white;
+      }
+      .file_name {
+        flex: 1;
+        width: 50%;
+        white-space: nowrap;
+        @include overHidden;
+        text-overflow: ellipsis;
+      }
+    }
+    .attach_remove {
+      display: block;
+      cursor: pointer;
+      margin-left: auto;
+      color: $grayCC;
+      &:before {
+        @extend %iconElement;
+        content: "\e904";
+        display: block;
+        font-size: 2.2rem;
+        @include mediaTo($size960){
+          font-size: 1.6rem;
+        }
+      }
+    }
+    .attach_input {
+      @extend %maskedInput;
+    }
+    .attach_error {
+      color: $error;
+      display: block;
+      font-size: 120%;
+      line-height: 1.5em;
+    }
+
+    @include mediaRange($size960, $size1200) {
+      margin-bottom: 20px;
+      label {
+        &:not(.check_block) {
+          margin-top: 20px;
+        }
+        &.check_block {
+          margin-top: 10px;
+        }
+      }
+      input,
+      textarea {
+        padding-bottom: 10px;
+
+      }
+      button[type="submit"] {
+        margin-top: 10px;
+      }
+    }
+    @include mediaTo($size960) {
+      margin-bottom: 16px;
+      label {
+        position: relative;
+        &:not(.check_block) {
+          margin-top: 16px;
+        }
+        &.check_block {
+          margin-top: 8px;
+          span {
+            &:before {
+              width: 20px;
+              height: 20px;
+              margin-right: 10px;
+            }
+          }
+        }
+        button[type="submit"] {
+          margin-top: 8px;
+        }
+      }
+      input,
+      textarea {
+        padding-bottom: 8px;
+
+      }
+    }
+  }
+}
+.field_block {
+  padding: 0 36px;
+}
+.sign_btn {
+  padding: 0 30px;
+  height: 119px;
+  width: 463px;
+  @extend %centerInlineBlock;
+  background: transparent url('../../../assets/images/btn_bg.png') no-repeat center;
+  background-size: 100% 100%;
+  font-size: 180%;
+  line-height: 22px;
+  font-family: $medium;
+  color: $secondColor;
+  border-radius: 39%;
+  position: relative;
+  border: none;
+  @include loading(inherit);
+  @include opacityHover;
+  span {
+    @include zIndex(2);
+    @include transStyle(rotate(-3deg));
+  }
+}
+
+@import '../../../assets/styles/scss/extendsEnd';

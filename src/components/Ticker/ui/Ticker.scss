@@ -1,0 +1,12 @@
+@import '../../../assets/styles/scss/variables';
+@import '../../../assets/styles/scss/mixins';
+
+.ticker:before {
+  @include psevdoAbs;
+  border: dashed $border 8px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: -6px -8px;
+}

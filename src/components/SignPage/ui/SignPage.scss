@@ -1,0 +1,63 @@
+@import '../../../assets/styles/scss/variables';
+@import '../../../assets/styles/scss/mixins';
+@import '../../../assets/styles/scss/extendsStart';
+
+.sign_page {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  justify-content: flex-start;
+
+  .sign_section {
+    padding: 40px 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 1460px;
+  }
+}
+
+.title_block {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 0 36px;
+  .section_title {
+    font-family: $medium;
+  }
+}
+
+.sticker {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  animation: rotateSticker 10s linear infinite;
+  width: 120px;
+  height: 120px;
+  bottom: 42%;
+  left: 100%;
+  margin-left: -32px;
+  @include torigin(center);
+  background: url('../../../../public/resources/images/sticker.svg') no-repeat center;
+  background-size: 100%;
+
+  span {
+    color: $secondColor;
+    @extend %coverLayer;
+    @extend %centerBlock;
+    font-size: 1.6rem;
+    line-height: 22px;
+    font-family: $medium;
+    padding: 0 10px;
+  }
+}
+
+@keyframes rotateSticker {
+  to {
+    @include transStyle(rotate(360deg));
+  }
+}
