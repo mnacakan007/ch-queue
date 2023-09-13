@@ -18,7 +18,6 @@ function* listReload() {
 			if (response && response.status === 200) {
 				yield put(listRefresh(response));
 			}
-			notification.success({ message: messages.successStatusUpdate });
 		} catch (error) {
 			notification.error({ message: messages.errorListLoad, description: error });
 			console.log(error);
@@ -28,7 +27,6 @@ function* listReload() {
 
 function* orderStatusUpdate() {
 	yield takeEvery(ORDER_LIST_STATUS_UPDATE, function* (action) {
-		debugger;
 		const { orderID, statusID } = action.data;
 		yield put(orderStatusUpdateSuccess(action.data));
 		const data = {

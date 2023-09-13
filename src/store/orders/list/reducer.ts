@@ -14,7 +14,7 @@ const orderSlice = createSlice({
 		},
 		orderStatusUpdateSuccess: (state: OrderStateType, { payload }: PayloadAction<OrderStatusUpdateSuccessAction>) => {
 			const orders = [...state.list];
-			const index = orders.findIndex(event => event.id === payload.data.orderID);
+			const index = orders.findIndex(order => order.id === payload.data.orderID);
 			orders[index].statusID = payload.data.statusID;
 			state.list = orders;
 		},

@@ -39,9 +39,9 @@ const OrderList = () => {
 		document.querySelector('.logout_popup')?.classList.add('showed');
 	};
 
-	// const onChangeStatus = (orderID: string, statusID: string): void => {
-	// 	dispatch(orderStatusUpdate(orderID, statusID));
-	// };
+	const onChangeFilterTab = (index: number): void => {
+		setSelectedTabIndex(index);
+	};
 
 	return (
 		<div className="kitchen_page">
@@ -51,7 +51,7 @@ const OrderList = () => {
 						<TabButton
 							key={index}
 							title={tab.title}
-							click={() => setSelectedTabIndex(index)}
+							click={() => onChangeFilterTab(index)}
 							selected={selectedTabIndex === index}
 						/>
 					))}

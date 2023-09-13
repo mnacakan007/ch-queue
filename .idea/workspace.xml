@@ -5,223 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a693dec2-7031-4ad8-9f7f-a6af92f7ff8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ch-queue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/box_bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/box_bg2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/dots.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/dots_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/favicons/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/hearts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/hearts_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/main_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/more_btn_bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/planets.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/planets_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/smoke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/smoke_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/stars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/stars_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/sticker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/text_end.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/images/text_start.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/providers/router/config/routeConfig.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/providers/router/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/providers/router/ui/AppRouter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/providers/router/ui/ProtectedRoute.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/types/global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/BraindYerevanRegular/BraindYerevanRegular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/BraindYerevanRegular/BraindYerevanRegular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/BraindYerevanRegular/BraindYerevanRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/BraindYerevanRegular/BraindYerevanRegular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Bold/Roboto-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Bold/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Bold/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Regular/Roboto-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Regular/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Roboto-Regular/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/icons/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/icons/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/icons/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/icons/selection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/btn_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/coffee_house_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/red_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/sign.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/sign@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/user_left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/user_left@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/user_right.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/user_right@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/scss/_extendsEnd.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/scss/_extendsStart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/scss/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/scss/_general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/ui/Layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/ui/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoginForm/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoginForm/ui/LoginForm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoginForm/ui/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LogoutPopup/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LogoutPopup/ui/LogoutPopup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LogoutPopup/ui/LogoutPopup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PageScreen/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PageScreen/ui/PageScreen.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PageScreen/ui/PageScreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SignPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SignPage/ui/SignPage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SignPage/ui/SignPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TabButton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TabButton/ui/TabButton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TabButton/ui/TabButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ticker/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ticker/ui/Ticker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ticker/ui/Ticker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Notification/consts/consts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Notification/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Notification/ui/Notification.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/api/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/api/orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/commonConstants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/entityAdapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/getDomain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/sockets/socket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/utility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTypedSelector.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/INotification.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ITicker.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/IUser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/ui/HomePage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/ui/HomePage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/ui/HomePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HotFoundPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HotFoundPage/ui/HotFoundPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HotFoundPage/ui/HotFoundPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/KitchenPageUI/KitchenPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/KitchenPageUI/KitchenPage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/KitchenPageUI/KitchenPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/Order/Order.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/Order/Order.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderItem/OrderItem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderItem/OrderItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderList/OrderList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderList/OrderList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderListSkeleton/OrderListSkeleton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderListSkeleton/OrderListSkeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage/ui/LoginPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage/ui/LoginPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/UsersPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/UsersPage/ui/UsersPage.async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/UsersPage/ui/UsersPage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/UsersPage/ui/UsersPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/activateIndicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/getElementRef.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/config/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/constants/HTTPStatusCodes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/constants/tikers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/classNames/classNames.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Icon/Icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Icon/Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Icon/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Skeleton/Skeleton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Skeleton/Skeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Skeleton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/auth/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/auth/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/auth/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/auth/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/auth/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/orders/list/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/orders/list/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/orders/list/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/orders/list/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/orders/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/orders/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/rootReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/rootSaga.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/socket/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/socket/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/socket/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/socket/subscribes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/socket/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/socket/watcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/replicateArray.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/rules.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.paths.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderList/OrderList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderList/OrderList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderListSkeleton/OrderListSkeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/KitchenPage/ui/OrderListSkeleton/OrderListSkeleton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/orders/list/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/orders/list/saga.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -242,30 +34,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "C:/Users/Mno/bm-front-admin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "C:\\Users\\Mno\\ch-queue\\node_modules\\eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Mno\\ch-queue\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.general",
-    "ts.external.directory.path": "C:\\Users\\Mno\\ch-queue\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mno/ch-queue&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;C:\\Users\\Mno\\ch-queue\\node_modules\\eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Mno\\ch-queue\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Mno\\ch-queue\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mno\ch-queue\src\entities\Notification" />
@@ -305,7 +97,8 @@
       <workItem from="1694411669481" duration="547000" />
       <workItem from="1694412233714" duration="1768000" />
       <workItem from="1694497615465" duration="1399000" />
-      <workItem from="1694499045587" duration="11321000" />
+      <workItem from="1694499045587" duration="16693000" />
+      <workItem from="1694584114538" duration="1725000" />
     </task>
     <servers />
   </component>
